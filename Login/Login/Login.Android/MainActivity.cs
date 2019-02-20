@@ -19,7 +19,9 @@ namespace Login.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+            string dbPath = FileAccess.GetLocalFilePath("users.db3");
+
+            LoadApplication(new App(dbPath));
         }
     }
 }

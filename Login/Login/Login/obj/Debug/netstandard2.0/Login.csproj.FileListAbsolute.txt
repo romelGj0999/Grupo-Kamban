@@ -1,0 +1,12 @@
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\obj\Debug\netstandard2.0\Login.csprojAssemblyReference.cache
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\obj\Debug\netstandard2.0\Principal.xaml.g.cs
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\obj\Debug\netstandard2.0\Login.csproj.CoreCompileInputs.cache
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\obj\Debug\netstandard2.0\Login.AssemblyInfoInputs.cache
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\obj\Debug\netstandard2.0\Login.AssemblyInfo.cs
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\bin\Debug\netstandard2.0\Login.deps.json
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\bin\Debug\netstandard2.0\Login.dll
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\bin\Debug\netstandard2.0\Login.pdb
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\obj\Debug\netstandard2.0\Login.dll
+C:\Users\Santiago\Documents\GitHub\Grupo-Kamban\Login\Login\Login\obj\Debug\netstandard2.0\Login.pdb

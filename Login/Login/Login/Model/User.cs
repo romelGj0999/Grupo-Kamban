@@ -5,22 +5,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using SQLite;
 
+
 namespace Login.Model
 {
-    [SQLite.Net.Attributes.Table("user")]
+    [Table("user")]
+
     public class User
     {
-        [SQLite.Net.Attributes.PrimaryKey, SQLite.Net.Attributes.AutoIncrement]
+        [PrimaryKey, AutoIncrement]
+
+
         public int Id { get; set; }
-
-        [SQLite.Net.Attributes.MaxLength(100), SQLite.Net.Attributes.Unique]
+        [MaxLength(100), Unique]
         public String Username { get; set; }
-
-        [SQLite.Net.Attributes.MaxLength(100), SQLite.Net.Attributes.Unique]
+        [MaxLength(100), Unique]
         public String Email { get; set; }
-
-        [SQLite.Net.Attributes.MaxLength(70), SQLite.Net.Attributes.Unique]
-        public String Password{ get; set; }
+        [MaxLength(70)]
+        public String Password { get; set; }
 
     }
 }

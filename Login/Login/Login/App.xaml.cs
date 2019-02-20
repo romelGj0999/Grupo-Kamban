@@ -1,17 +1,19 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Login.Model;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Login
 {
     public partial class App : Application
     {
-        public App()
+        public App(String filename)
         {
             InitializeComponent();
+            UserRepository.Inicializador(filename);
 
-            MainPage = new MainPage();
+            MainPage = new Login.Principal();
         }
 
         protected override void OnStart()

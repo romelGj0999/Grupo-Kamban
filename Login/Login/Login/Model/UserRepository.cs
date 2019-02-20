@@ -4,7 +4,7 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using SQLite;
-using SQLite.Net;
+
 using SQLiteConnection = SQLite.SQLiteConnection;
 
 namespace Login.Model
