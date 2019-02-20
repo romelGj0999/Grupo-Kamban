@@ -53,15 +53,28 @@ namespace Login.Model
         public int AddNewUser(string username, string email, string password)
         {
             int result = 0;
+          
             try
             {
-                result = con.Insert(new User() {
-                    Username = username,
-                    Email = email,
-                    Password = password
-                });
 
-                EstadoMensaje = string.Format("Cantidad de filas afectadas {0}", result);
+                if (string.IsNullOrEmpty(username) && string.IsNullOrEmpty(email) && string.IsNullOrEmpty(password))
+                {
+                    EstadoMensaje = string.Format("Complete todos los campos.");
+
+                }
+                else
+                {
+                    result = con.Insert(new User()
+                    {
+                        Username = username,
+                        Email = email,
+                        Password = password
+                    });
+
+
+
+                    EstadoMensaje = string.Format("Cantidad de filas afectadas {0}", result);
+                }
             }
             catch (Exception e)
             {
